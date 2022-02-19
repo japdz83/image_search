@@ -1,0 +1,81 @@
+body {
+  background: #f2f2f2;  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #497177, #8e9194);  Chrome 10-25, Safari 5.1-6
+  background: linear-gradient(to right, #497177, #8e9194); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #4b4b4b !important;
+  
+}
+a{
+  text-decoration: none;
+  /* width: 100% !important; */
+}
+.box-text{
+  display: flex !important;
+}
+.btn-buscar{
+  border-radius: 35px;
+  background-color: #006eff;
+  color: #fff;
+}
+.btn-buscar:hover{
+  background-color: #0062ae;
+}
+.divBuscar{
+  background-color: #fff;
+  border: 1px solid #4b4b4b;
+  /* padding: 15px 20px; */
+  border-radius: 35px;
+}
+.iconBuscar .bx{
+  font-size: 25px;
+  line-height: 2px;
+  padding: 5px 5px;
+}
+.divBuscar input{
+  background-color: #fff;
+  outline: none;
+  border-radius: 35px !important;
+  font-size: 17px;
+  padding: 5px 5px
+  /* border: 2px solid #EFEEF1; */
+}
+.divBuscar input:focus{
+  border: none;
+  background-color: #fff !important;
+}
+/* input:active{
+  border: none;
+} */
+.input-buscar{
+  border: none;
+  padding: 5px 5px;
+  background-color: #fff;
+}
+img{
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+}
+.btn-img{
+  border-radius: 35px;
+  background-color: #006eff;
+  color: #fff;
+}
+.btn-img:hover{
+  background-color: #0062ae;
+}
+.flex-icon{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between !important;
+  /* flex-direction: column !important; */
+
+
+}
+.flex-icon p{
+  flex-direction: column !important;
+}
+/* .paginacion{
+  display: flex;
+  flex-wrap: wrap;
+} */
